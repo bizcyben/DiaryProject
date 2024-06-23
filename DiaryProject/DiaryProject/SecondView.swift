@@ -16,21 +16,29 @@ struct SecondView: View {
                     .opacity(0.1)
                     .ignoresSafeArea()
                 VStack{
-                    Text("June")
+                    Text("your Emo")
                         .font(.title)
                         .bold()
+                    Spacer()
                     HStack(alignment: .center){
+                        Spacer()
                         Text("🥰")
-                            .font(.system(size: 50))
+                            .font(.system(size: 100))
+                        Spacer()
                     }
                     Spacer()
-                    HStack{
-                        Spacer()
-                        Image("PlusIcon")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(maxWidth : 95)
-                    }.padding()
+                    NavigationLink{
+                        ThirdView()}
+                    label : {
+                        HStack{
+                            Spacer()
+                            Image("PlusIcon")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(maxWidth : 95)
+                        }.padding()
+                    
+                    }
                 }
             }
         }

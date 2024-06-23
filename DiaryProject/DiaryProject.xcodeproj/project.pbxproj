@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163779E12C28139F00963D99 /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163779E02C28139F00963D99 /* ForthView.swift */; };
+		163779E32C2813B000963D99 /* emojiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163779E22C2813B000963D99 /* emojiInfo.swift */; };
+		163779E52C2813B900963D99 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163779E42C2813B900963D99 /* ThirdView.swift */; };
 		16E6B1792C27D9500042D657 /* DiaryProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E6B1782C27D9500042D657 /* DiaryProjectApp.swift */; };
 		16E6B17B2C27D9500042D657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E6B17A2C27D9500042D657 /* ContentView.swift */; };
 		16E6B17D2C27D9520042D657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E6B17C2C27D9520042D657 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		163779E02C28139F00963D99 /* ForthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
+		163779E22C2813B000963D99 /* emojiInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emojiInfo.swift; sourceTree = "<group>"; };
+		163779E42C2813B900963D99 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		16E6B1752C27D9500042D657 /* DiaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E6B1782C27D9500042D657 /* DiaryProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryProjectApp.swift; sourceTree = "<group>"; };
 		16E6B17A2C27D9500042D657 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				16E6B1782C27D9500042D657 /* DiaryProjectApp.swift */,
 				16E6B17A2C27D9500042D657 /* ContentView.swift */,
 				16E6B1A22C27E3A60042D657 /* SecondView.swift */,
+				163779E42C2813B900963D99 /* ThirdView.swift */,
+				163779E02C28139F00963D99 /* ForthView.swift */,
+				163779E22C2813B000963D99 /* emojiInfo.swift */,
 				16E6B17C2C27D9520042D657 /* Assets.xcassets */,
 				16E6B17E2C27D9520042D657 /* Preview Content */,
 			);
@@ -260,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163779E12C28139F00963D99 /* ForthView.swift in Sources */,
 				16E6B1A32C27E3A60042D657 /* SecondView.swift in Sources */,
 				16E6B17B2C27D9500042D657 /* ContentView.swift in Sources */,
+				163779E32C2813B000963D99 /* emojiInfo.swift in Sources */,
+				163779E52C2813B900963D99 /* ThirdView.swift in Sources */,
 				16E6B1792C27D9500042D657 /* DiaryProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
